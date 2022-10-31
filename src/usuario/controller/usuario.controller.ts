@@ -6,7 +6,7 @@ import { UsuarioService } from "../Services/usuario.service";
 
 
 @ApiTags('Usuario')
-@Controller('/usuarios')
+@Controller('/usuario')
 export class UsuarioController{
     constructor(private readonly usuarioService: UsuarioService){}
         
