@@ -18,6 +18,5 @@ export class PostagemContoller {
     findAll(): Promise<Postagem[]> {
         return this.postagemService.findAll()
     }
-    
-    
+       
 }
