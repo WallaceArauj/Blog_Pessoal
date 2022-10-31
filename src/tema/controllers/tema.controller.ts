@@ -1,9 +1,5 @@
-import { Body, Controller, Get, HttpCode, UseGuards } from "@nestjs/common";
-import { Post } from "@nestjs/common";
-import { Param } from "@nestjs/common";
-import { Put } from "@nestjs/common";
-import { Delete } from "@nestjs/common";
-import { HttpStatus, ParseIntPipe } from "@nestjs/common";
+
+import { Body, Controller, Delete, Get, HttpCode, HttpStatus, Param, ParseIntPipe, Post, Put, UseGuards } from "@nestjs/common";
 import { ApiBearerAuth, ApiTags } from "@nestjs/swagger";
 import { JwtAuthGuard } from "../../auth/guard/jwt-auth.guard";
 import { Tema } from "../entities/tema.entity";
